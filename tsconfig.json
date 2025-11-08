@@ -1,0 +1,46 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"*": ["types/*.d.ts"],
+			"@data/*": ["cypress/data/*"],
+			"@pages/*": ["cypress/pages/*"],
+			"@support/*": ["cypress/support/*"]
+		},
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"types": [
+			"cypress",
+			"cypress-real-events",
+			"node",
+			"cypress-xpath"
+		]
+	},
+	"ts-node": {
+		// these options are overrides used only by ts-node
+		// same as our --compilerOptions flag and our TS_NODE_COMPILER_OPTIONS environment variable
+		"compilerOptions": {
+			"module": "commonjs"
+		}
+	},
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"cypress/**/*.ts", 
+		"run-multi-env.js"
+	],
+	"exclude": ["**/node_modules", "**/.*/"]
+}
