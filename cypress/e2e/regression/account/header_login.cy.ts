@@ -9,8 +9,9 @@ describe('Login from the website header', () => {
     })
 
     it('TEST-10004 should display all login form elements correctly', () => {
-        loginPage.openLoginForm()
-        loginPage.assertVisibleElements()
+        loginPage
+            .openLoginForm()
+            .assertVisibleElements()
     })
 
     it('TEST-9981 should navigate to all form links with 200 response codes, and ensure that social links are not empty', () => {

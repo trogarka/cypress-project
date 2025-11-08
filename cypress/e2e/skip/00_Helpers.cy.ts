@@ -1,5 +1,5 @@
-import { modules } from '../../support/modules'
-import { urls } from '../../support/urls'
+import { modules } from '@support/modules'
+import { urls } from '@support/urls'
 
 const { productDetailPage, subBasketModal, loginPage } = modules
 
