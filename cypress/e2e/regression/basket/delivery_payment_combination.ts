@@ -13,6 +13,7 @@ const allCombos = combine(Object.values(deliveries), Object.values(payments))
 
 describe('Delivery × Payment combinations', () => {
     beforeEach(() => {
+        cy.visit(Cypress.env('E2EFlow'))
         cy.addToCartAPI('1903230')
         cy.visit(Cypress.env('E2EFlow') + urls.cartStepTwo)
     })
