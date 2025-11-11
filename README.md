@@ -18,7 +18,7 @@ This test suite covers various e-commerce functionalities including:
 
 ### Installation
 
-https://hptronic.atlassian.net/wiki/spaces/TEST/pages/4119035956/AT+-+Cypress 
+https://docs.cypress.io/app/get-started/install-cypress
 
 ## Running Tests
 
