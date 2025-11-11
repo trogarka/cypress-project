@@ -1,4 +1,4 @@
-# Cypress Test Automation Project for NAY.sk
+# Cypress Test Automation Project for eshop
 
 This project contains automated tests for the NAY.sk e-commerce platform using Cypress.
 
