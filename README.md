@@ -1,6 +1,6 @@
 # Cypress Test Automation Project for eshop
 
-This project contains automated tests for the NAY.sk e-commerce platform using Cypress.
+This project contains automated tests for the e-commerce platform using Cypress.
 
 ## Project Overview
 
@@ -38,7 +38,7 @@ Build -> Pipelines -> New Pipeline -> master (branch) -> Input variable value ->
 
 ###### Deploy pipeline expects 1 variable:
 ```console
-TEST_JOB (possible values: nay_tests_beta, nay_tests_rc, nay_prod)
+TEST_JOB (possible values: tests_beta, tests_rc, prod)
 ```
 
 ## Project Structure
@@ -78,7 +78,7 @@ We keep test data separate from test logic:
 
 ### Environment Support
 Tests can run in different environments:
-- Production: nay.sk
+- Production
 - RC: Release Candidate for final testing
 - Beta: For testing new features
 
