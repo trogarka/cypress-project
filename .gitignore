@@ -14,5 +14,3 @@ cypress/data
 cypress.config.ts
 package-lock.json
 package.json
-tsconfig.json
-tsconfig.tsbuildinfo
